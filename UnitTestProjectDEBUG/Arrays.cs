@@ -4,7 +4,7 @@ using System;
 namespace UnitTestProjectDEBUG
 {
     [TestClass]
-    public class UnitTest1
+    public class Arrays
     {
         [TestMethod]
         public void Array_Test()
