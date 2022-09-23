@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Collections;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace UnitTestProjectDEBUG
 {
@@ -75,6 +76,27 @@ namespace UnitTestProjectDEBUG
                 Console.WriteLine(i + " ");
             }
             Console.WriteLine();            
+        }
+        [TestMethod]
+        public void ListCreator()
+        {
+            List<int> list = new List<int>() { 1, 2, 3 };
+            Console.WriteLine(list.Count);
+            Console.WriteLine(list[0] + list[2]);
+
+            List<int> list2 = new List<int>(list) { 5 };
+            Console.WriteLine(list2[3]);
+            list2.Add(69);
+            Console.WriteLine(list2[4]);
+            list2.Remove(1);
+            Console.WriteLine(list2[0]);
+            list2.Reverse();
+            Console.WriteLine(list2[0]);
+
+            foreach(int i in list2)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
