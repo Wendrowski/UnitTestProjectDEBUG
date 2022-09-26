@@ -3,7 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace UnitTestProjectDEBUG
+namespace ArraysAndLists
 {
     [TestClass]
     public class Lists

@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace UnitTestProjectDEBUG
+namespace ArraysAndLists
 {
     [TestClass]
     public class Arrays

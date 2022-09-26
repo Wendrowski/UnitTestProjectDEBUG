@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectDEBUG", "UnitTestProjectDEBUG\UnitTestProjectDEBUG.csproj", "{DCE0C62C-4BCC-40C0-94C7-8A0A1CE8297D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndLists", "UnitTestProjectDEBUG\ArraysAndLists.csproj", "{DCE0C62C-4BCC-40C0-94C7-8A0A1CE8297D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedOOTopics", "AdvancedOOTopics\AdvancedOOTopics.csproj", "{BB1A6C3F-91F0-40CA-A829-E973E0CAA680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DCE0C62C-4BCC-40C0-94C7-8A0A1CE8297D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE0C62C-4BCC-40C0-94C7-8A0A1CE8297D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE0C62C-4BCC-40C0-94C7-8A0A1CE8297D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1A6C3F-91F0-40CA-A829-E973E0CAA680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1A6C3F-91F0-40CA-A829-E973E0CAA680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1A6C3F-91F0-40CA-A829-E973E0CAA680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1A6C3F-91F0-40CA-A829-E973E0CAA680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

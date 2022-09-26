@@ -2,7 +2,7 @@
 using System;
 using System.Collections;
 
-namespace UnitTestProjectDEBUG
+namespace ArraysAndLists
 {
     [TestClass]
     public class SectionExam

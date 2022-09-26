@@ -2,18 +2,18 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("ArraysAndLists")]
+[assembly: AssemblyTitle("AdvancedOOTopics")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ArraysAndLists")]
+[assembly: AssemblyProduct("AdvancedOOTopics")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 [assembly: ComVisible(false)]
 
-[assembly: Guid("dce0c62c-4bcc-40c0-94c7-8a0a1ce8297d")]
+[assembly: Guid("bb1a6c3f-91f0-40ca-a829-e973e0caa680")]
 
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
