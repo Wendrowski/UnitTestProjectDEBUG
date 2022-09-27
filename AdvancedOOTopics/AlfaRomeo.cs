@@ -14,5 +14,10 @@ namespace AdvancedOOTopics
             colorName = colorN;
             modelName = modelN;
         }
+        public override double ResistanceCoefficient()
+        {
+            double rCoeff = 0.99;
+            return rCoeff;
+        }
     }
 }

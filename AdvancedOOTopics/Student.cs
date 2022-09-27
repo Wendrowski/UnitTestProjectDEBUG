@@ -17,5 +17,10 @@ namespace AdvancedOOTopics
             major = maj;
             studentId = stId;
         }
+
+        public override string GetExerciseHabbits()
+        {
+            return "Zero time to exercise";
+        }
     }
 }

@@ -3,7 +3,7 @@ using System;
 
 namespace AdvancedOOTopics
 {
-    class Car
+    abstract class Car
     {
         string fuelType;
         string makeName;
@@ -19,6 +19,7 @@ namespace AdvancedOOTopics
             makeName = makeN;
             driveTrain = driveT;
         }
+        public abstract double ResistanceCoefficient();
     }
 }
     

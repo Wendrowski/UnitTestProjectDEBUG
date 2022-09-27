@@ -4,7 +4,7 @@ using System;
 namespace AdvancedOOTopics
 {
     [TestClass]
-     class Person
+     abstract class Person
     {
         private string idNumber;
         private string lastName;
@@ -21,7 +21,10 @@ namespace AdvancedOOTopics
             age = anAge;
             idNumber = id;
             lastName = lName;
-
         }
+
+        public abstract string GetExerciseHabbits();
+
+
     }
 }
